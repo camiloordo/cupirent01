@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script src="jquery/jquery-1.11.3.min.js"></script>
+<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+</head>
+
+<body>
+<div data-role="page">
+  <div class="container">  <!-- INICIO PAGINA PRINCIPAL -->
+
+	<div data-role="header"><img src="img/CUPI2.PNG" width="100%" alt=""/></div>
+
+    <!-- INICIO TABLA -->
+    <div class="table-responsive">
+    <table width="100%" border="0" class="table" >
+        <thead>
+        <tr>
+        	<td></td>
+            <th><h5 align="center">RENAULT</h5></th>
+            <th><h5 align="center">BMW</h5></th>
+            <th><h5 align="center">MERCEDES</h5></th>
+        </tr>
+        </thead>
+        <tbody>
+            
+ <!--TALLER NUMERO 1 COMUNIDAD DE PRACTICA --> 
+    <!--a.)   Realice el siguientes cambios a la aplicacion Cupirent   introduce las imagenes del carro 2 y carro 3  que estan presentes en las lineas de codigo  43 y 44 del archivo index.html -->        
+            
+            
+            <tr>
+                  <td><p>Fotografia</p></td>
+                  <td><img class="imgcarros" src="img/carro1.png"></td>
+                  <td><img class="imgcarros" src="img/carro2.png">
+            </td>
+                  <td><img class="imgcarros" src="img/carro3.png">
+            </td>
+    		</tr>
+            
+            <tr>
+      			<td><p>Valor por Hora</p></td>
+                  <td>$ 50.500</td>
+                  <td>$ 100.250</td>
+                  <td>$ 150.320</td>
+            </tr>
+            
+    
+<form>
+    <tr>
+      <td><p>Horas Alquiladas</p></td>
+      <td><input type="text" id="ha1" value="0" disabled="true" class="form-control"></td>
+      <td><input type="text" id="ha2" value="0" disabled="true" class="form-control"></td>
+      <td><input type="text" id="ha3" value="0" disabled="true" class="form-control"></td>
+    </tr>
+    <tr>
+      <td><p>Valor Total Unitario</p></td>
+      <td><input type="text" id="vt1" value="0" disabled="true" class="form-control"></td>
+      <td><input type="text" id="vt2" value="0" disabled="true" class="form-control"></td>
+      <td><input type="text" id="vt3" value="0" disabled="true" class="form-control"></td>
+    </tr>
+
+	<tr>
+      <td><p>horas a alquilar</p></td>
+      <td><input type="text" id="haa1" value="0" class="form-control"></td>
+      <td><input type="text" id="haa2" value="0" class="form-control"></td>
+      <td><input type="text" id="haa3" value="0" class="form-control"></td>
+    </tr>
+	<tr>
+      <td><p>Alquilar</p></td>
+      <td><input type="button" id="b1" value="Alquilar carro 1" onClick="carro1()" class="btn btn-primary btn-lg btn-block"></td>
+      <td><input type="button" id="b2" value="Alquilar carro 2" onClick="carro2()" class="btn btn-primary btn-lg btn-block"></td>
+      <td><input type="button" id="b3" value="Alquilar carro 3" onClick="carro3()" class="btn btn-primary btn-lg btn-block"></td>
+    </tr>
+  <tr></tr>
+
+   <tr align="center">
+    <td>CANTIDAD DE BONOS REDIMIDOS</td>
+    <td>HORAS ALQUILADAS</td>
+    <td>DINERO TOTAL RECAUDADO</td>
+    <td>COSTO PROMEDIO POR HORA </td>
+    </tr>
+    <tr>
+    <td><input type="text" id="cdb" value="0" disabled="true" class="form-control"></td>
+    <td><input type="text" id="sha" value="0" disabled="true" class="form-control"></td>
+    <td><input type="text" id="dtr" value="0" disabled="true" class="form-control"></td>
+    <td><input type="text" id="cpph" value="0" disabled="true" class="form-control"></td>
+    </tr>
+  <tr>
+    <td colspan="4"><input type="reset" value="Reiniciar" onClick="borrar()" class="btn btn-primary btn-lg btn-block"></td>
+    
+    </tr>
+    </tbody>
+</table>
+
+</div>
+</form>
+
+
+	<div data-role="footer" align="center" >Comunidad de Práctica<br>Licenciatura en Informática - UDENAR <br>Todos los derechos reservados &copy; 2015</div>
+</div>
+</div>
+</body>
+</html>
